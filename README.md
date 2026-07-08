@@ -1,6 +1,6 @@
 # PaySim Fraud Analytics and Detection
 
-End-to-end fraud analytics and machine learning project using the PaySim dataset, built as a serious portfolio piece for fraud detection, behavioral analysis, and explainable machine learning.
+End-to-end fraud analytics and machine learning project using the PaySim dataset, built as a piece for fraud detection, behavioral analysis, and explainable machine learning.
 
 ## Project Overview
 
@@ -76,8 +76,7 @@ The goals of this project are to:
 4. Build baseline and improved machine learning models.
 5. Use proper metrics for imbalanced classification.
 6. Explain model predictions clearly.
-7. Package the work professionally for GitHub and portfolio review.
-8. Build toward a simple deployment-ready application.
+7. Build toward a simple deployment-ready application.
 
 ## Why Fraud Detection Is Hard
 
@@ -150,23 +149,28 @@ The final version is intended to show:
 
 ## Project Structure
 
-```text
 Fraud-Analytics/
-  data/
-    raw/
-  docs/
-    DATA_DICTIONARY.md
-    DECISIONS.md
-    WEEK1_PLAN.md
-  notebooks/
-    01_eda_paysim.ipynb
-  src/
-    __init__.py
-    config.py
-    logging_config.py
-    data_ingestion.py
-  tests/
-    __init__.py
-  README.md
-  requirements.txt
-  .gitignore
+│
+├── data/
+│   └── raw/
+│
+├── docs/
+│   ├── DATA_DICTIONARY.md
+│   ├── DECISIONS.md
+│   └── WEEK1_PLAN.md
+│
+├── notebooks/
+│   └── 01_eda_paysim.ipynb
+│
+├── src/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── logging_config.py
+│   └── data_ingestion.py
+│
+├── tests/
+│   └── __init__.py
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
