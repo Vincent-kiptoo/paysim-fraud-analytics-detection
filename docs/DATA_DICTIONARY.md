@@ -86,7 +86,3 @@ Before training any model, we must check whether any features create data leakag
 - Are there suspicious balance changes before and after transactions?
 - Can account behavior over time help improve detection?
 - Is the flagged fraud label aligned with the actual fraud label?
-
-## Notes
-
-This data dictionary will be updated as the dataset is explored and the feature set is refined.
