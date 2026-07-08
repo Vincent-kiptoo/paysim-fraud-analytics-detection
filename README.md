@@ -1,6 +1,6 @@
 # PaySim Fraud Analytics and Detection
 
-End-to-end fraud analytics and machine learning project using the PaySim dataset, built as a piece for fraud detection, behavioral analysis, and explainable machine learning.
+End-to-end fraud analytics and machine learning project using the PaySim dataset, built as a piece for fraud detection, behavioral analysis, forensic psychology and explainable machine learning.
 
 ## Project Overview
 
@@ -9,7 +9,7 @@ This project investigates fraud in digital financial transactions from both an a
 My goal is not just to build a model, but to understand fraud as a behavioral problem:
 how suspicious transactions look, how fraud patterns differ from normal activity, and how machine learning can support early detection and decision-making.
 
-This project is also informed by my background in criminology and penology. That gives me a useful lens for thinking about fraud as a mix of opportunity, concealment, timing, and exploitation of systems.
+This project is also informed by my background in criminology and penology. That gives me a useful lens and edge for thinking about fraud as a mix of opportunity, concealment, timing, and exploitation of systems.
 
 ## Why This Project
 
