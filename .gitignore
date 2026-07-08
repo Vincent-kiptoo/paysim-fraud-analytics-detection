@@ -1,0 +1,61 @@
+﻿# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files - keep large/local datasets out of Git
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.pkl
+*.pickle
+
+# Model artifacts
+models/*.joblib
+models/*.pkl
+models/*.pickle
+*.joblib
+
+# Logs
+logs/
+*.log
+
+# Reports and generated figures
+reports/figures/*
+!reports/figures/.gitkeep
+
+# Test and coverage outputs
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build/package artifacts
+build/
+dist/
+*.egg-info/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
